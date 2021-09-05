@@ -1,0 +1,47 @@
+#smart-table { 
+    width: 1400px; 
+    overflow-x:scroll;  
+    overflow-y:visible;
+    margin-left: 100px;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+td, th {
+    padding: 20px; 
+    border: 1px solid black;
+    white-space: nowrap; 
+    background-color: white;
+} 
+   
+th {
+    background-color: rgb(55, 125, 255);
+    color: white;
+}
+
+.fixed-left-0 {
+    position: sticky;
+    left: 0;
+}
+
+.fixed-left-1 {
+    position: sticky;
+    left: 125.02px;
+}
+
+.fixed-right-13 {
+    position: sticky;
+    right: 134.39px;
+}
+
+.fixed-right-14 {
+    position: sticky;
+    right: 0;
+}
+
+
